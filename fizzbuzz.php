@@ -5,11 +5,15 @@ for ($num = 1; $num <= 100; $num++) {
         echo "FizzBuzz\n";
 
         continue;
-    } elseif ($num % 3 == 0) {
+    }
+    
+    if ($num % 3 == 0) {
         echo "Fizz\n";
 
         continue;
-    } elseif ($num % 5 == 0) {
+    } 
+    
+    if ($num % 5 == 0) {
         echo "Buzz\n";
 
         continue;
